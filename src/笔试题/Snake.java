@@ -111,6 +111,8 @@ public class Snake {
         if(visited[i][j]==1||(map[i][j]!='>'&&map[i][j]!='x'))
             return;
         path.offerFirst(new int[]{i,j});
+        String s;
+//        s.s
         visited[i][j] = 1;
         for(int[] dir:direction){
             int x = i+dir[0];
