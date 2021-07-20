@@ -7,5 +7,6 @@ package JUC;
 public class testNewBranch {
     public static void main(String[] args) {
         System.out.println("new branch");
+        System.out.println("test1111");
     }
 }
